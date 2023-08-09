@@ -96,3 +96,29 @@ header {
     }
   }
 }
+
+// timeline area
+.timeline-area {
+  .timelines {
+    margin: 5rem 0;
+    .timeline-left {
+      max-width: 644px;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      p {
+        font-size: 1.2rem;
+      }
+    }
+    .timeline-right {
+      max-width: 471px;
+      margin-left: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

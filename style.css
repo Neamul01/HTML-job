@@ -82,4 +82,27 @@ header {
 }
 .feature-area .feature-card .feature-card-text {
   margin-top: 1rem;
+}
+
+.timeline-area .timelines {
+  margin: 5rem 0;
+}
+.timeline-area .timelines .timeline-left {
+  max-width: 644px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.timeline-area .timelines .timeline-left p {
+  font-size: 1.2rem;
+}
+.timeline-area .timelines .timeline-right {
+  max-width: 471px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.timeline-area .timelines .timeline-right p {
+  font-size: 1.2rem;
 }/*# sourceMappingURL=style.css.map */
