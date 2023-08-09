@@ -231,3 +231,91 @@ footer {
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  main {
+    padding: 0 0.5rem;
+  }
+  // banner area
+  .banner-area {
+    flex-direction: column;
+    gap: 1.2rem;
+    .banner-text {
+      margin-top: 0;
+    }
+    .banner-image {
+      max-width: 400px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  //   card area
+  .card-area {
+    .cards {
+      flex-direction: column;
+      .card {
+        width: 100%;
+        margin: 1rem 0;
+      }
+    }
+  }
+  //   feature area
+  .feature-area {
+    .feature-cards {
+      flex-direction: column;
+      .feature-card {
+        .feature-card-img {
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
+
+  //   timeline-area
+  .timeline-area {
+    .timelines {
+      display: flex;
+      gap: 4rem;
+      flex-direction: column;
+      .timeline-left {
+        max-width: 100%;
+        margin-left: 0;
+      }
+      .timeline-right {
+        max-width: 100%;
+        margin-left: 0;
+      }
+    }
+  }
+
+  //   review-area
+  .review-area {
+    .review-inner {
+      padding: 0;
+      position: static;
+      .review-cards {
+        position: static;
+        flex-direction: column;
+        gap: 1rem;
+        .review-card {
+          width: 100%;
+          margin: 1rem 0;
+        }
+      }
+    }
+  }
+  //   sponsore-area
+  .sponsore-area {
+    margin-top: 30rem;
+    .sponsore-cards {
+      flex-direction: column;
+      gap: 3rem;
+      .sponsore-card {
+        align-items: center;
+        width: 100%;
+        margin: 1rem 0;
+      }
+    }
+  }
+}
