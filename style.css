@@ -30,8 +30,34 @@ header {
   justify-content: space-between;
 }
 .banner-area .banner-text {
+  margin-top: 97px;
   max-width: 548px;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+}
+
+.card-area {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0;
+}
+.card-area h2 {
+  margin: 1.2rem 0;
+  text-align: center;
+}
+.card-area .cards {
+  margin: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.card-area .cards .card {
+  width: 308px;
+  height: 320px;
+  padding: 0 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  border-radius: 1rem;
 }/*# sourceMappingURL=style.css.map */

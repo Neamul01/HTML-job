@@ -1,5 +1,6 @@
 $primary-color: #1492e6;
 $secondary-color: #000000;
+$background-color: #f8fafc;
 
 // global styling
 body {
@@ -38,9 +39,36 @@ header {
   display: flex;
   justify-content: space-between;
   .banner-text {
+    margin-top: 97px;
     max-width: 548px;
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+  }
+}
+
+// card area
+.card-area {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0;
+  h2 {
+    margin: 1.2rem 0;
+    text-align: center;
+  }
+  .cards {
+    margin: 3rem;
+    display: flex;
+    justify-content: space-between;
+    .card {
+      width: 308px;
+      height: 320px;
+      padding: 0 0.9rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.9rem;
+      border-radius: 1rem;
+    }
   }
 }
