@@ -4,6 +4,11 @@ body {
   margin-right: auto;
 }
 
+h2 {
+  margin: 1.2rem 0;
+  text-align: center;
+}
+
 header {
   margin-top: 33px;
 }
@@ -41,10 +46,7 @@ header {
   display: flex;
   flex-direction: column;
   margin: 80px 0;
-}
-.card-area h2 {
-  margin: 1.2rem 0;
-  text-align: center;
+  background: #f8fafc;
 }
 .card-area .cards {
   margin: 3rem;
@@ -60,4 +62,9 @@ header {
   justify-content: center;
   gap: 0.9rem;
   border-radius: 1rem;
+}
+
+.feature-area h2 {
+  margin: 1.2rem 0;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
