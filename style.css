@@ -108,7 +108,7 @@ header {
 }
 
 .review-area {
-  margin: 5rem 0;
+  margin: 10rem 0;
 }
 .review-area .review-inner {
   width: 100%;
@@ -118,4 +118,57 @@ header {
   box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1607843137);
   padding: 39px 43px;
   margin-top: 3rem;
+  position: relative;
+}
+.review-area .review-inner .review-cards {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  gap: 1.5625rem;
+  width: 100%;
+  top: 10rem;
+}
+.review-area .review-inner .review-cards .review-card {
+  width: 285px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border-radius: 1.8rem;
+}
+.review-area .review-inner .review-cards .review-card .card-header {
+  width: 100%;
+  background: white;
+  border: none;
+  display: flex;
+  gap: 0.4rem;
+  padding: 0;
+}
+.review-area .review-inner .review-cards .review-card .card-header .card-header-img {
+  width: 42px;
+  height: 44px;
+}
+.review-area .review-inner .review-cards .review-card .card-header .review-author {
+  width: 100%;
+}
+.review-area .review-inner .review-cards .review-card .card-header .review-author .review-author-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review-area .review-inner .review-cards .review-card .card-header .review-author .review-author-title h6 {
+  font-size: 0.8rem;
+  margin: 0;
+}
+.review-area .review-inner .review-cards .review-card .card-header .review-author .review-author-title p {
+  margin: 0;
+  font-size: 0.6rem;
+}
+.review-area .review-inner .review-cards .review-card .card-header .review-author-text {
+  font-size: 0.7rem;
+}
+.review-area .review-inner .review-cards .review-card .reeview-text {
+  margin-top: 2rem;
+  font-size: 0.7rem;
 }/*# sourceMappingURL=style.css.map */
