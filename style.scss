@@ -80,4 +80,19 @@ header {
     margin: 1.2rem 0;
     text-align: center;
   }
+  .feature-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin: 5rem 0;
+  }
+  .feature-card {
+    padding: 0 0.3rem;
+    .feature-card-img {
+      padding-bottom: 1rem;
+    }
+    .feature-card-text {
+      margin-top: 1rem;
+    }
+  }
 }

@@ -67,4 +67,19 @@ header {
 .feature-area h2 {
   margin: 1.2rem 0;
   text-align: center;
+}
+.feature-area .feature-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 5rem 0;
+}
+.feature-area .feature-card {
+  padding: 0 0.3rem;
+}
+.feature-area .feature-card .feature-card-img {
+  padding-bottom: 1rem;
+}
+.feature-area .feature-card .feature-card-text {
+  margin-top: 1rem;
 }/*# sourceMappingURL=style.css.map */
